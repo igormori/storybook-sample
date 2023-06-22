@@ -53,6 +53,10 @@
 	width: 100%;
 }
 
+.buttons-primary--full {
+	width: fit-content;
+}
+
 /* Secondary buttons */
 
 .buttons-secondary {

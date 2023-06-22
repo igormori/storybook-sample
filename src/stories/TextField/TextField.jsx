@@ -45,6 +45,10 @@ TextField.propTypes = {
      */
     errorLabel: PropTypes.string,
     /**
+     * Select the textfield disabled state:
+     */
+    disabled: PropTypes.bool,
+    /**
      * Get the textfield event:
      */
     onChange: PropTypes.func,
@@ -55,4 +59,5 @@ TextField.defaultProps = {
     error: false,
     errorLabel: 'Sample error',
     onChange: undefined,
+    disabled: false
 };

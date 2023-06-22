@@ -1,6 +1,5 @@
 import { Buttons } from './Buttons';
 
-// More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 export default {
     title: 'Components/Button',
     component: Buttons,
@@ -11,13 +10,13 @@ export default {
     },
 };
 
-// More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 
 
 export const Primary = {
     args: {
         label: 'Button',
-        variant: 'primary'
+        variant: 'primary',
+        disabled: false,
     },
 };
 
@@ -55,6 +54,14 @@ export const Small = {
 export const Full = {
     args: {
         size: 'full',
+        label: 'Button',
+        variant: 'primary'
+    },
+};
+
+export const Fit = {
+    args: {
+        size: 'fit',
         label: 'Button',
         variant: 'primary'
     },

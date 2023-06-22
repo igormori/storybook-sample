@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Button from '@mui/material/Button';
 import './buttons.css';
 
 /**
@@ -47,7 +46,7 @@ Buttons.propTypes = {
     /**
      * Select the button size:
      */
-    size: PropTypes.oneOf(['small', 'medium', 'large', 'full']),
+    size: PropTypes.oneOf(['small', 'medium', 'large', 'full', 'fit']),
     /**
      * Enter the button style type:
      */

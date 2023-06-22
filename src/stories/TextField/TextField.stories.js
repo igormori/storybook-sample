@@ -19,3 +19,20 @@ export const Default = {
     },
 };
 
+export const Error = {
+    args: {
+        label: 'Login email',
+        error: true,
+        errorLabel: 'Invalid email',
+    },
+};
+
+export const Disabled = {
+    args: {
+        label: 'Sample label*',
+        error: false,
+        errorLabel: 'Sample error',
+        disabled: true
+    },
+};
+
