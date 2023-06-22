@@ -1,0 +1,62 @@
+.textField-wrapper {
+	position: relative;
+	width: fit-content;
+}
+
+.textField-label {
+	font-family: 'Lato', sans-serif;
+	color: #666;
+	line-height: 1.5;
+	letter-spacing: 0.04px;
+	font-size: 16px;
+	display: block;
+	margin-bottom: 4px;
+	margin-left: 8px;
+}
+
+.textField-label--error {
+	margin-top: 3px;
+	font-family: 'Lato', sans-serif;
+	color: #e51937;
+	font-size: 14px;
+	line-height: 1.5;
+	letter-spacing: 0.04px;
+	display: block;
+}
+
+.textField {
+	border: 1px solid #767676;
+	border-radius: 4px;
+	padding: 13px 8px;
+	font-size: 16px;
+	max-height: 50px;
+	width: 100%;
+	max-width: 360px;
+}
+
+.textField:focus {
+	border-color: #13499f;
+	box-shadow: 0 0 0 0.1rem #13499f;
+	outline: none;
+}
+
+.textField:hover {
+	border-color: #13499f;
+	box-shadow: 0 0 0 0.1rem #13499f;
+}
+
+.textField--error {
+	border-color: #e51937;
+	background: url(/errorIcon.svg) 97% center no-repeat;
+}
+
+.textField--error:focus {
+	border-color: #e51937;
+	box-shadow: 0 0 0 0.1rem #e51937;
+}
+
+.textField--error:hover {
+	border-color: #e51937;
+	box-shadow: 0 0 0 0.1rem #e51937;
+	background: url(/errorIcon.svg) 97% center no-repeat;
+}

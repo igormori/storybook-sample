@@ -37,13 +37,17 @@ export const Buttons = ({
 
 Buttons.propTypes = {
     /**
-     * Select the button size:
-     */
-    size: PropTypes.oneOf(['small', 'medium', 'large', 'full']),
-    /**
      * Enter the button label:
      */
     label: PropTypes.string.isRequired,
+    /**
+     * Enter the button status:
+     */
+    disabled: PropTypes.bool,
+    /**
+     * Select the button size:
+     */
+    size: PropTypes.oneOf(['small', 'medium', 'large', 'full']),
     /**
      * Enter the button style type:
      */
@@ -67,4 +71,5 @@ Buttons.defaultProps = {
     variant: 'primary',
     label: 'buttons',
     onClick: undefined,
+    disabled: false
 };

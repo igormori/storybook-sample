@@ -26,6 +26,17 @@
 	outline: none;
 }
 
+.buttons-primary:disabled {
+	background-color: #ececec !important;
+	color: #6a6969;
+	outline: none;
+	cursor: default;
+	opacity: 0.6;
+	-webkit-filter: grayscale(0.1);
+	filter: grayscale(0.1);
+	pointer-events: none;
+}
+
 .buttons-primary--small {
 	width: 100px;
 }
@@ -85,4 +96,13 @@
 
 .buttons-secondary--full {
 	width: 100%;
+}
+
+.buttons-secondary:disabled {
+	background-color: #ececec !important;
+	color: #6a6969;
+	border-color: #ababab;
+	filter: grayscale(0.1);
+	pointer-events: none;
+	opacity: 0.6;
 }
