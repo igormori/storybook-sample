@@ -5,6 +5,7 @@
 	height: 100vh;
 	min-width: 270px;
 	align-items: center;
+  width: 270px;
 }
 
 .title {
@@ -26,6 +27,7 @@
 	text-align: start;
 	display: block;
 	color: #909090;
+  text-decoration: none;
 }
 
 .link:focus {

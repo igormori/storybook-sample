@@ -20,11 +20,6 @@ export const SideBar = ({
                 return <ItemsStructure item={item} key={item.label} />;
             })}
             <div className="copyright">
-                <img
-                    src="/assets/img/logo-small-bot.png"
-                    alt="Idea Theorem logo"
-                    className="logo"
-                />
                 © {new Date().getFullYear()} Copyright Idea Theorem Inc.
             </div>
         </div>
