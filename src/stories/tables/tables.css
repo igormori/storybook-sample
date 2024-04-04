@@ -1,0 +1,66 @@
+.custom-table {
+	max-height: 600px !important;
+}
+
+.table-header {
+	background-color: #0a0a27;
+}
+
+.table-cell {
+	color: white !important;
+	font-weight: 600 !important;
+}
+
+.action-button {
+	box-shadow: none;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.action-button--edit {
+	background-color: #fa4321;
+	color: white;
+}
+
+.action-button--edit:focus {
+	background-color: #fa4221dd;
+	box-shadow: 0 0 0 4px white, 0 0 0 5px #fa4221dd;
+	outline: none;
+}
+
+.action-button--edit:hover {
+	background-color: #fa4221dd;
+}
+
+.action-button--new {
+	background-color: #0a0a27;
+	color: white;
+}
+
+.action-button--new:focus {
+	background-color: #0a0a27e9;
+	box-shadow: 0 0 0 4px white, 0 0 0 5px #0a0a27e9;
+	outline: none;
+}
+
+.action-button--new:hover {
+	background-color: #0a0a27e9;
+}
+
+.table-cell {
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.MuiTableCell-root {
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.limit-text {
+	width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 250px;
+}

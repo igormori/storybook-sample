@@ -1,0 +1,22 @@
+.logo-button {
+	background: none;
+	box-shadow: none;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.logo-button:focus {
+	outline-color: #fa4321;
+}
+
+.top-nav {
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+	height: 90px;
+	padding: 10px 2% 10px 8px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	position: relative;
+}
