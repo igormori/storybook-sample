@@ -50,14 +50,14 @@ SideBar.propTypes = {
     /**
      * Enter the topNav state
      */
-    items: PropTypes.array,
+    items: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.string)),
 
 };
 
 SideBar.defaultProps = {
     items: [{
-        label: "Customer list",
-        url: "customer/list"
+        label: "Home",
+        url: "/"
 
     }],
 };
