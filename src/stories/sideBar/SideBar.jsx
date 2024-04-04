@@ -1,7 +1,6 @@
 'use client';
 import React from 'react';
 import PropTypes from 'prop-types';
-import { usePathname } from 'next/navigation';
 import './sideBar.css';
 
 /**
@@ -36,10 +35,8 @@ const ItemsStructure = (props) => {
     const {
         item: { label, url, icon },
     } = props;
-    const pathname = usePathname();
 
     const isActive = false;
-    pathname.includes(label.toLowerCase());
 
     return (
         <a href={url} className="link">
