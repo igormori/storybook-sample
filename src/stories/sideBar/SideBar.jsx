@@ -1,7 +1,6 @@
 'use client';
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from "next/link";
 import { usePathname } from 'next/navigation';
 import './sideBar.css';
 
@@ -43,9 +42,9 @@ const ItemsStructure = (props) => {
     pathname.includes(label.toLowerCase());
 
     return (
-        <Link href={url} className="link">
+        <a href={url} className="link">
             <img src={icon} alt="chat icon" className="sidebar-icon" /> {label}
-        </Link>
+        </a>
     );
 };
 
