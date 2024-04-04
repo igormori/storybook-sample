@@ -40,7 +40,8 @@ const ItemsStructure = (props) => {
 
     return (
         <a href={url} className="link">
-            <img src={icon} alt="chat icon" className="sidebar-icon" /> {label}
+            {icon ? <img src={icon} alt="chat icon" className="sidebar-icon" /> : <img src="/home.svg" alt="chat icon" className="sidebar-icon" />}
+           {label}
         </a>
     );
 };
