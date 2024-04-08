@@ -8,11 +8,15 @@ import Logo from '../assets/idea_theorem_logo.svg';
  */
 export const TopNav = ({
     state,
+    backgroundColor,
+
     ...props
 }) => {
 
     return (
-        <div className="top-nav" {...props}>
+        <div className="top-nav" {...props}
+          style={{ backgroundColor: backgroundColor}}
+        >
             <button className="logo-button" type="button" >
                 <img src={Logo} alt="Idea Theorem logo" width={225} />
             </button>
@@ -26,6 +30,10 @@ TopNav.propTypes = {
      * Enter the topNav state
      */
     label: PropTypes.bool,
+    /**
+     * Enter the button background color:
+    */
+    backgroundColor: PropTypes.string,
 
 };
 
