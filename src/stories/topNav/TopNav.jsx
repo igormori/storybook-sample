@@ -31,7 +31,7 @@ TopNav.propTypes = {
      */
     label: PropTypes.bool,
     /**
-     * Enter the button background color:
+     * Enter the background color code:
     */
     backgroundColor: PropTypes.string,
 
