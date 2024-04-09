@@ -89,7 +89,7 @@ Tables.defaultProps = {
     data: [
         {
             id: 'id',
-            contactName: 'Olive Tree',
+            contactName: 'John Doe',
             phoneNumber: '+1 (555) 555 555',
             companyName: 'Idea Theorem',
             domainUrl: 'https://www.ideatheorem.com/'
