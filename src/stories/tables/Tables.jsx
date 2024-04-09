@@ -125,14 +125,6 @@ Tables.defaultProps = {
             onClick: function () {
                 console.log('action')
             },
-        },
-        {
-            name: 'trainData',
-            label: 'Train data',
-            variant: 'secondary',
-            onClick: function () {
-                console.log('action')
-            },
         }
     ]
 };
