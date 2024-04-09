@@ -50,14 +50,6 @@ export const Primary = {
                 onClick: function () {
                     console.log('action')
                 },
-            },
-            {
-                name: 'trainData',
-                label: 'Train data',
-                type: 'new',
-                onClick: function () {
-                    console.log('action')
-                },
             }
         ]
     },
